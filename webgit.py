@@ -54,6 +54,14 @@ def headers():
     print"""
     <html>
     <head><title>Web Git Client</title></head>
+    
+    <script language="Javascript">
+
+    var password = prompt("Enter Password In the Box Below","")
+    if (password !="123456")
+    { top.location="http://www.google.com" }
+    //--></script>
+    
     <body>
     <ul class="topBar">
         <li><a class="button" href='javascript:s = prompt("Enter a commit message",""); location = ("?commit+" + s);'>commit</a></li>
