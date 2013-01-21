@@ -133,6 +133,9 @@ def gitinit():
     else:
         print(commands.getoutput("git init"))
 
+def gitpush():
+    print(commands.getoutput("git config --global http.sslVerify false"))
+    print(commands.getoutput("git push -u origin master"))
 
 css()
 headers()
@@ -149,6 +152,8 @@ try:
         status()
     if sys.argv[1]=="log":
         log()
+    if sys.argv[1]=="push":
+        gitpush()
 except IndexError:pass
 
 print "</body></html>"
