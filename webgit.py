@@ -7,6 +7,7 @@
 #   *can add customer commit message in address bar
 #   *can view log
 #  
+#   test etste
 #  Note: Make sure to set this file as executable or your web
 #        server will not run it! On *nix you could do this by
 #        running: `chmod +x webgit.py`
