@@ -57,10 +57,6 @@ def headers():
     <head><title>Web Git Client</title></head>
     
     <script language="Javascript">
-
-    var password = prompt("Enter Password In the Box Below","")
-    if (password !="123456")
-    { top.location="http://www.google.com" }
     //--></script>
     
     <body>
